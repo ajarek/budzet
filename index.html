@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    <title>Budżet</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="h1">
+            <h1>APLIKACJA BUDŻETOWA</h1>
+        </div>
+        <div class="przychody">
+            <div class="ramka1">
+                <div>
+                    <p>Wprowadź swój budżet</p>
+                    <input type="number" name="" id="in1" value="0" step="0.01">
+                </div>
+                <div><button id="btn1">Dodaj</button></div>
+            </div>
+        </div>
+        <div class="ekran">
+            <div>BUDŻET
+                <img src="img/money-bill-alt-solid.svg" alt="">
+                <span id="spn1"></span>
+            </div>
+            <div>WYDATKI
+                <img src="img/credit-card-solid.svg" alt="">
+                <span id="spn2"></span>
+            </div>
+            <div>SALDO
+                <img src="img/dollar-sign-solid.svg" alt="">
+                <span id="spn3"></span>
+            </div>
+            <button id="btn3" >Zapisz Budżet</button>
+        </div>
+        <div class="wydatki">
+            <div class="ramka1">
+                <div>
+                    <p>Nazwa wydatku</p>
+                    <input type="text" name="" id="in2">
+                </div>
+                <div>
+                    <p>Kwota wydatku</p>
+                    <input type="number" name="" id="in3" step="0.01" value="0">
+                </div>
+                <div ><button id="btn2">Dodaj </button></div>
+
+            </div>
+        </div>
+
+        <div class="lista">
+            <div class="wynik">
+                <h5>Tytuł Wydatków</h5>
+                <h5>Wartość Kosztu</h5>
+            </div>
+            <span id="wynik"></span>
+          
+        </div>
+
+    </div>
+    <div class="logo">
+        <a href="mailto:ajarek@poczta.onet.pl">
+            <img src="img/logo2.PNG" alt="husky">
+    <script src="script.js"></script>
+</body>
+
+</html>

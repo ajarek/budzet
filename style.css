@@ -1,0 +1,170 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url(img/dolars.jpg);
+    background-size: cover;
+    opacity: 0.9;
+    }
+    
+.container{
+    height: 100vh;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  
+
+}
+h1{
+    text-shadow: 4px 2px 2px hsl(134,42%,62%);
+    color:white;
+}
+.h1{
+    width: 100%;
+    height: 10%;
+    text-align: center;
+  
+   
+}
+.przychody{
+    box-sizing: border-box;
+    width: 50%;
+    height: 45vh;
+   background-color: hsl(134, 42%, 62%);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-wrap: wrap;
+}
+.ekran{
+   
+    box-sizing: border-box;
+    width: 50%;
+    height: 45vh;
+    background-color: rgb(118, 199, 137);
+   display: flex;
+   flex-direction: row;
+   position: relative;
+   flex-wrap: wrap;
+}
+.ekran div{
+    width: 33%;
+    font-size: 1.5rem;
+    font-weight: 700;
+text-align: center;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+ flex-wrap: wrap;
+}
+.ekran div img{
+    margin: 20px;
+    width: 100px;
+    height:50px;
+}
+.ekran div span{
+    font-size: 2rem;
+}
+.wydatki{
+    box-sizing: border-box;
+    width: 50%;
+    height: 45vh;
+    background-color: rgb(118, 199, 137);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-wrap: wrap;
+
+}
+.lista{
+    box-sizing: border-box;
+    width: 50%;
+    height: 45vh;
+    background-color: rgb(118, 199, 137);
+   text-align: center;
+}
+
+  .wynik{
+      display: flex;
+     justify-content: center;
+  }
+  .wynik h5{
+      margin: 20px;
+      font-size: 1.5rem;
+  }
+p{
+    margin: 0;
+    font-size: 1.5rem;
+}
+.ramka1{
+    height: 25vh;
+    width: 60%;
+    border: 2px solid white;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+  
+    
+    padding: 30px;
+    box-shadow: -3px -3px 7px #ffffffb2, 3px 3px 5px rgba(94, 104, 121, 0.945);
+    overflow: hidden;
+}
+.ramka1 input{
+    width: 100%;
+    height: 35px;
+    border-radius: 5px;
+    border:1px solid grey;
+    margin: 0 10px;
+    font-size: 1.5rem;
+   background-color:ffffff;
+}
+:root {
+    --nm: 6px 6px 16px 0 rgba(0, 0, 0, 0.2),
+    -6px -6px 16px 0 #ffffff;
+
+    --nm-inset:inset 4px 4px 8px 0 rgba(0, 0, 0, 0.2),
+    inset -4px -4px 8px 0 rgba(255, 255, 255, 0.8);
+}
+button{
+    font-size: 1.5rem;
+    padding: 2px 8px;
+    border-radius: 5px;
+    border:1px solid grey;
+    margin:10px;
+    background-color: rgb(255, 193, 7);
+}
+button:hover {
+    box-shadow:var(--nm-inset);
+   }
+#wynik{
+    font-size: 2rem;
+    text-align: center;
+}
+#btn3{
+    position: absolute;
+  right: 10px;
+  bottom: 10px;
+}
+.logo{
+    position: absolute;
+    top: 10px;
+   right: 10px;
+}
+@media (max-width: 940px){
+    .ekran div,.wynik h5,.ekran div span{
+        
+        font-size: 1.2rem;
+        font-weight: 400;
+   
+}
+.ekran div img{
+    margin: 10px;
+    width: 50px;
+    height:25px;
+}
+h1{
+    font-size: 100%;
+}
+}
