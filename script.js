@@ -12,7 +12,7 @@ spn1.innerHTML=in1C;
 in3C=parseFloat(localStorage.getItem('start2'));
 spn2.innerHTML=in3C;
 spn3.innerHTML=parseFloat(localStorage.getItem('start3'));
-let = tablica=[];
+let  tablica=[];
 }
 
 btn.forEach(element=>{
