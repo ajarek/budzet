@@ -18,8 +18,8 @@
         <div class="przychody">
             <div class="ramka1">
                 <div>
-                    <p>Wprowadź swój budżet</p>
-                    <input type="number" name="" id="in1" value="0" step="0.01">
+                    <p>Wprowadź swój przychód</p>
+                    <input type="number" name="" id="in1" step="0.01" autofocus>
                 </div>
                 <div><button id="btn1">Dodaj</button></div>
             </div>
@@ -37,7 +37,7 @@
                 <img src="img/dollar-sign-solid.svg" alt="">
                 <span id="spn3"></span>
             </div>
-            <button id="btn3" >Zapisz Budżet</button>
+            <button id="btn3">Zapisz Budżet</button>
         </div>
         <div class="wydatki">
             <div class="ramka1">
@@ -47,27 +47,37 @@
                 </div>
                 <div>
                     <p>Kwota wydatku</p>
-                    <input type="number" name="" id="in3" step="0.01" value="0">
+                    <input type="number" name="" id="in3" step="0.01">
                 </div>
-                <div ><button id="btn2">Dodaj </button></div>
+                <div><button id="btn2">Dodaj </button></div>
 
             </div>
         </div>
 
         <div class="lista">
-            <div class="wynik">
-                <h5>Tytuł Wydatków</h5>
-                <h5>Wartość Kosztu</h5>
-            </div>
-            <span id="wynik"></span>
-          
+            <table class="wynik">
+                <thead>
+                    <tr>
+                        <th>
+                            <h5>Tytuł Wydatków</h5>
+                        </th>
+                        <th>
+                            <h5>Wartość Kosztu</h5>
+                        </th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
         </div>
+
+
+
 
     </div>
     <div class="logo">
         <a href="mailto:ajarek@poczta.onet.pl">
             <img src="img/logo2.PNG" alt="husky">
-    <script src="script.js"></script>
+            <script src="script.js"></script>
 </body>
 
 </html>
